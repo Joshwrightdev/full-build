@@ -1,0 +1,24 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "admin": "^1.4.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "firebase": "^8.6.3",
+        "firebase-admin": "^9.9.0",
+        "stripe": "^8.121.0"
+    },
+    "devDependencies": {
+        "dotenv": "^8.6.0",
+        "nodemon": "^2.0.6"
+    }
+}
